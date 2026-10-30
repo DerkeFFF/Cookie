@@ -1,0 +1,27 @@
+[project]
+name = "cookie-by-evgen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Daler Ismail-zade", email = "ismailzade.d.n@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "albumentations>=2.0.8",
+    "keyboard>=0.13.5",
+    "onnxruntime>=1.31.1",
+    "opencv-python>=5.0.0.93",
+    "pyautogui>=0.9.54",
+    "torch>=2.14.1",
+    "torchaudio>=2.11.1",
+    "torchvision>=0.29.1",
+    "ultralytics>=8.4.190",
+]
+
+[project.scripts]
+cookie-by-evgen = "cookie_by_evgen:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"

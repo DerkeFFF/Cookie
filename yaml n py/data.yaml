@@ -1,0 +1,7 @@
+path: ../
+train: ./images/train
+val: ./images/val
+
+nc: 12
+
+names: ['game', 'close_ad', 'upgrade0', 'upgrade1', 'upgrade2', 'upgrade3', 'upgrade4', 'upgrade5', 'tool0', 'tool1', 'tool2', 'tool3']

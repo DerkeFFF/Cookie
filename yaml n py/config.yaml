@@ -1,0 +1,13 @@
+type: yolov8
+name: MySuperCookerDetector
+display_name: MyOwnDetectorS
+model_path: ./best.onnx
+nms_threshold: 0.45
+confidence_threshold: 0.25
+classes:
+  - game
+  - upgrade0
+  - upgrade1
+  - upgrade2
+  - upgrade3
+  - upgrade4
